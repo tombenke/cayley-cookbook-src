@@ -3,7 +3,7 @@
 version: '2'
 
 vars:
-  APPNAME: cayley-cookbook
+  APPNAME: cayley-cookbook-src
 
 tasks:
   default:
