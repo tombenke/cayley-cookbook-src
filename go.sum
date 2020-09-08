@@ -42,6 +42,8 @@ github.com/cznic/mathutil v0.0.0-20170313102836-1447ad269d64/go.mod h1:e6NPNENfs
 github.com/d4l3k/messagediff v1.2.1/go.mod h1:Oozbb1TVXFac9FtSIxHBMnBCq2qeH/2KkEQxENCrlLo=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
+github.com/deiu/gon3 v0.0.0-20170627184619-f84eb1e0bd62 h1:dIxgaSfI7XxKvw4cVntS02TIHg3APMToZo62oM1uSNo=
+github.com/deiu/gon3 v0.0.0-20170627184619-f84eb1e0bd62/go.mod h1:9NkyS0HR4Tqu0VuChFnThvfn2xvgA7Y/ZOS4gnO8jeo=
 github.com/dennwc/base v1.0.0 h1:xlBzvBNRvkQ1LFI/jom7rr0vZsvYDKtvMM6lIpjFb3M=
 github.com/dennwc/base v1.0.0/go.mod h1:zaTDIiAcg2oKW9XhjIaRc1kJVteCFXSSW6jwmCedUaI=
 github.com/dennwc/graphql v0.0.0-20180603144102-12cfed44bc5d/go.mod h1:lg9KQn0BgRCSCGNpcGvJp/0Ljf1Yxk8TZq9HSYc43fk=
@@ -204,6 +206,8 @@ github.com/rogpeppe/go-internal v1.3.2/go.mod h1:xXDCJY+GAPziupqXw64V24skbSoqbTE
 github.com/rogpeppe/go-internal v1.4.0/go.mod h1:xXDCJY+GAPziupqXw64V24skbSoqbTEfhy4qGm1nDQc=
 github.com/rogpeppe/go-internal v1.5.0/go.mod h1:xXDCJY+GAPziupqXw64V24skbSoqbTEfhy4qGm1nDQc=
 github.com/russross/blackfriday v1.5.2/go.mod h1:JO/DiYxRf+HjHt06OyowR9PTA263kcR/rfWxYHBV53g=
+github.com/rychipman/easylex v0.0.0-20160129204217-49ee7767142f h1:L2/fBPABieQnQzfV40k2Zw7IcvZbt0CN5TgwUl8zDCs=
+github.com/rychipman/easylex v0.0.0-20160129204217-49ee7767142f/go.mod h1:MZ2GRTcqmve6EoSbErWgCR+Ash4p8Gc5esHe8MDErss=
 github.com/satori/go.uuid v1.2.0 h1:0uYX9dsZ2yD7q2RtLRtPSdGDWzjeM3TbMJP9utgA0ww=
 github.com/satori/go.uuid v1.2.0/go.mod h1:dA0hQrYB0VpLJoorglMZABFdXlWrHn1NEOzdhQKdks0=
 github.com/shopspring/decimal v0.0.0-20180709203117-cd690d0c9e24/go.mod h1:M+9NzErvs504Cn4c5DxATwIqPbtswREoFCre64PpcG4=
