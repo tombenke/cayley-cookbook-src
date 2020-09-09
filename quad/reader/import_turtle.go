@@ -12,7 +12,7 @@ import (
 func main() {
 	store := kbase.InitStore()
 
-	quads, err := impex.ReadFromTurtle("../../../data/starwars.ttl", "http://example.org", false)
+	quads, err := impex.ReadFromTurtle("../../data/starwars.ttl", "http://example.org", false)
 	if err != nil {
 		log.Fatal(err)
 	}

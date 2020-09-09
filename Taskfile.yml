@@ -9,7 +9,13 @@ tasks:
   default:
     desc: Executes all the tests then build the binary.
     cmds:
+      - task: test
       - task: execute_samples
+
+  test:
+    desc: Execute unit tests
+    cmds:
+      - cd kbase/impex/ && go test ./... -v -count=1
 
   execute_samples:
     desc: Executes the sample programs to generate outputs
@@ -25,6 +31,9 @@ tasks:
 
   execute_quad:
       - cd quad && go run make_quads.go > make_quads.out
+      - cd quad && go run nq2graphml.go ../data/testdata_multigraph.nq ../data/testdata_multigraph.graphml
+      - cd quad/reader && go run import_nquads.go
+      - cd quad/reader && go run import_turtle.go
       - cd quad/writer && go run export_nquads_to_stdout.go data.go > export_nquads_to_stdout.out
       - cd quad/writer && dot -Tpng people.dot > people_dot.png
       # NOTE: Manual customization of the output graphs is required in case of graphml export.

@@ -1,7 +1,7 @@
 MemStoreAll *memstore.AllIterator
 Ref: 1 memstore.bnode
 Key: 1 memstore.bnode
-Value: _:n277861751382619633 quad.BNode
+Value: _:n7005960830091381747 quad.BNode
 
 Ref: 2 memstore.bnode
 Key: 2 memstore.bnode
