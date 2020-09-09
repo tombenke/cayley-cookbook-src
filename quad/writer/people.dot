@@ -1,10 +1,10 @@
 digraph cayley_graph {
-	"_:n2783857858056784092" -> "<foaf:Person>" [ label = "<rdf:type>" ];
-	"_:n2783857858056784092" -> "\"Luke\"" [ label = "<foaf:givenName>" ];
-	"_:n2783857858056784092" -> "\"Skywalker\"" [ label = "<foaf:familyName>" ];
-	"_:n2783857858056784092" -> "\"23\"^^<xsd:integer>" [ label = "<foaf:age>" ];
-	"_:n1741743723290108665" -> "<foaf:Person>" [ label = "<rdf:type>" ];
-	"_:n1741743723290108665" -> "_:n2783857858056784092" [ label = "<foaf:knows>" ];
-	"_:n1741743723290108665" -> "\"Leia\"" [ label = "<foaf:givenName>" ];
-	"_:n1741743723290108665" -> "\"Organa\"" [ label = "<foaf:familyName>" ];
+	"_:n5487918959284664559" -> "<foaf:Person>" [ label = "<rdf:type>" ];
+	"_:n5487918959284664559" -> "\"Luke\"" [ label = "<foaf:givenName>" ];
+	"_:n5487918959284664559" -> "\"Skywalker\"" [ label = "<foaf:familyName>" ];
+	"_:n5487918959284664559" -> "\"23\"^^<xsd:integer>" [ label = "<foaf:age>" ];
+	"_:n7754792363392602665" -> "<foaf:Person>" [ label = "<rdf:type>" ];
+	"_:n7754792363392602665" -> "_:n5487918959284664559" [ label = "<foaf:knows>" ];
+	"_:n7754792363392602665" -> "\"Leia\"" [ label = "<foaf:givenName>" ];
+	"_:n7754792363392602665" -> "\"Organa\"" [ label = "<foaf:familyName>" ];
 }
