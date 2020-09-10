@@ -24,6 +24,7 @@ tasks:
       - task: execute_schema
       - task: execute_store
       - task: execute_quad
+      - task: execute_queries
 
   execute_namespaces:
       - cd namespaces && go run list_namespaces.go > list_namespaces.out
@@ -48,3 +49,7 @@ tasks:
       - cd store && go run print_all_nodes.go data.go > all_nodes.out
       - cd store && go run print_all_quads.go data.go > all_quads.out
       - cd store && go run query_all.go data.go > all.out
+
+  execute_queries:
+      - cd query/bidirectional && ../../scripts/execGizmoQuery.sh data.nq query.gizmo query.out
+      - cd query/bidirectional && go run main.go > main.out

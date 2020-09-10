@@ -1,9 +1,13 @@
 #!/bin/bash
 
-if [ "$#" -ne 2 ]; then
+if [ "$#" -lt 2 ]; then
     echo "Illegal number of parameters" >&2
-    echo "Usage: execGizmoQuery <data-to-load> <query-file>" >&2
+    echo "Usage: execGizmoQuery <data-to-load> <query-file> [<out-file-name>]" >&2
     exit 1
 fi
 
-cayley query  --logtostderr false --load $1 `cat $2`
+if [ "$#" -eq 3 ]; then
+    cat $2 | cayley query  --logtostderr false --load $1 | cat > $3
+else
+    cat $2 | cayley query  --logtostderr false --load $1
+fi
